@@ -8,4 +8,4 @@ function setFullName(obj, name) {
 }
 const setPersonFullName = setFullName.bind(null, person);
 setPersonFullName("John Smith");
- console.log(person.fullName);
+console.log(person.fullName);
